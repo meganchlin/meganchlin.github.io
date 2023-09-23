@@ -100,9 +100,12 @@ nav a:hover {
     /*justify-content: space-between;*/
 }
 
-.Slides {
-    display: inline-block;
-    margin: 0 auto;
+.Slides1 {
+    display: none;
+}
+
+.Slides2 {
+    display: none;
 }
 
 .left {
@@ -112,7 +115,7 @@ nav a:hover {
 
 .right {
     top: -215px;
-    right: -695px;
+    right: -698px;
 }
 
 .button {
