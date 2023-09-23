@@ -1,0 +1,199 @@
+* {
+    font-family: Palatino, Georgia, serif;
+    background-color: #283044;
+}
+
+html {
+    font-size: 16px;
+    color: #EBF5EE;
+    scroll-padding-top: 15%;
+}
+
+body {
+    box-sizing: border-box;
+}
+  
+a {
+    text-decoration: none;
+    color: #EBF5EE;
+}
+
+header {
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header a {
+    width: 60%;
+    margin: 0 5%;
+    display: block;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+}
+
+nav {
+    width: 40%;
+    margin: 0 auto;
+}
+
+nav span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0% 15% 30%;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #8B786D;
+}
+
+nav a:hover {
+    color: #EBF5EE;
+}
+
+
+.main-container {
+    width: 60%;
+    position: relative;
+    margin: 5% auto 0 30%;
+}
+
+.main-content section {
+    display: none;
+}
+  
+.main-content section:target {
+    display: block;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main-container h3 {
+    width: 70%;
+    margin: 3% auto 1%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main-content .video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.slide-container {
+    margin: 50px 75px;
+    display: inline-block;
+    justify-content: center;
+    /*justify-content: space-between;*/
+}
+
+.Slides {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.left {
+    top: 215px;
+    left: 0;
+}
+
+.right {
+    top: -215px;
+    right: -695px;
+}
+
+.button {
+    position: relative;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0%);
+    border-color: rgba(255, 255, 255, 0%);
+}
+
+#dns .button {
+    color: #FFF;
+}
+
+#dns:hover .button {
+    background-color: #8B786D;
+}
+
+#line:hover .button{
+    background-color: #EBF5EE;
+}
+
+@media only screen and (orientation: portrait) {
+    html {
+        scroll-padding-top: 30%;
+    }
+    header {
+        width: 100%;
+        height: 22%;
+        padding-top: 2%;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    header a {
+        width: 30%;
+        margin: 0 2%;
+        display: inline-block;
+    }
+    
+    header img {
+        height: 100%;
+        width: auto;
+    }
+
+    nav {
+        width: 70%;
+        height: 10%;
+        margin: 1% auto;
+        display: inline-block;
+    }
+
+    nav span {
+        font-size: 0.8rem;
+        display: inline-block;
+        margin: 3% 3%;
+    }
+
+    .main-content {
+        width: 80%;
+        position: relative;
+        margin: 40% auto 10% auto;
+    }
+
+    h1 {
+        width: 100%;
+        margin: auto;
+        font-weight: 600;
+    }
+
+    h3 {
+        width: 80%;
+        margin: 2% auto;
+    }
+
+    .main-container {
+        width: 80%;
+        position: relative;
+        padding: 30% auto 10% auto;
+    }
+}

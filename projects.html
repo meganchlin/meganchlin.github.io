@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Megan's Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./resources/css/projects.css" type="text/css" rel="stylesheet">
+        <script src="./resources/js/slide.js"></script>
+    </head>
+
+    <body onLoad="showDivs1(1);showDivs2(1);">
+        <header>
+            <a href="./index.html"><img src="./resources/logo/I'Megan-logos-3/I'Megan-logos_transparent.png" /></a>
+            <nav>
+                <span><a href="#project1">DNS Server</a></span>
+                <span><a href="#project2">Minimized IRC Daemon</a></span>
+                <span><a href="#project3">LINE Notification Tool</a></span>
+                <span><a href="#project4">Math Helper</a></span>
+            </nav>            
+        </header>
+        
+        <div class="main-container">             
+            <div class="main-content">
+                <section class="project1 section" id="project1">
+                    <h1>DNS Server</h1>
+                    <h3>A DNS server that can correctly respond to users' requests for a DNS record of a particular domain name using UDP.</h3>
+                    <div class="slide-container" id="dns">
+                        <button class="button left" onclick="plusDivs1(-1)">&#10094;</button>
+                        <img width="720" height=auto class="Slides1" src="./resources/video/dns/dns1.jpeg">
+                        <img width="720" height=auto class="Slides1" src="./resources/video/dns/dns2.jpeg">
+                        <img width="720" height=auto class="Slides1" src="./resources/video/dns/dns3.jpeg">
+                        <img width="720" height=auto class="Slides1" src="./resources/video/dns/dns4.jpeg">
+                        <img width="720" height=auto class="Slides1" src="./resources/video/dns/dns5.jpeg">
+                        <img width="720" height=auto class="Slides1" src="./resources/video/dns/dns6.jpeg">
+                        <img width="720" height=auto class="Slides1" src="./resources/video/dns/dns7.jpeg">
+                        <img width="720" height=auto class="Slides1" src="./resources/video/dns/dns8.jpeg">
+                        <button class="button right" onclick="plusDivs1(+1)">&#10095;</button>
+                    </div>
+                </section>
+                <section class="project2 section" id="project2">
+                    <h1>Minimized IRC Daemon</h1>
+                    <h3>A minimized IRC server where users can join chat channels or send private message to other users</h3>
+                    <div class="video-container">
+                        <video width="720" height="540" src="./resources/video/mircd.mp4" controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </section>
+                <section class="project3 section" id="project3">
+                    <h1>LINE Notification Tool</h1>
+                    <h3>A LINE bot that is personalized in app announcement based on individual's selection on interested product key words.</h3>
+                    <div class="slide-container" id="line">
+                        <button class="button left" onclick="plusDivs2(-1)">&#10094;</button>
+                        <img width="720" height=auto class="Slides2" src="./resources/picture/LINE cover.png">
+                        <img width="720" height=auto class="Slides2" src="./resources/picture/LINE 1.png">
+                        <img width="720" height=auto class="Slides2" src="./resources/picture/LINE 2.png">
+                        <button class="button right" onclick="plusDivs2(+1)">&#10095;</button>
+                    </div>
+                </section>
+                <section class="project4 section" id="project4">
+                    <h1>Math Helper</h1>
+                    <h3>A webtool that can help you solve math problems easily, from simple algebra to trigonometric and logarithmic problems. </h3>
+                    <div class="video-container">
+                        <video width="720" height="540" src="./resources/video/Math Helper.mp4" controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </section>
+            </div>
+    </body>
+</html>
