@@ -80,7 +80,7 @@ p {
     letter-spacing: 2px;
 }
 
-#about, #experience, #projects, #skills {
+#about, #experience, #projects, #research, #skills {
     margin-bottom: 10%;
     width: 80%;
 }
@@ -164,7 +164,7 @@ p {
     border-radius: 1rem;
 }
 
-.work-container h4, .project-container h4 {
+.work-container h4, .project-container h4, #research h4 {
     font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
